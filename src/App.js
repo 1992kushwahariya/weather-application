@@ -81,7 +81,7 @@ function GfGWeatherApp() {
 				<input
 					type="text"
 					className="city-search"
-					placeholder="Enter City Name.."
+					placeholder="Enter City Name..."
 					name="query"
 					value={input}
 					onChange={(event) => setInput(event.target.value)}
